@@ -1,0 +1,2 @@
+#!/bin/bash
+export DECIMAL=15 | printf "%x\n" $DECIMAL
