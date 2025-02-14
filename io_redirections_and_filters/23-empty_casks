@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | find . -empty | sort
+ls -a | find -mindepth 1 -empty | sort
