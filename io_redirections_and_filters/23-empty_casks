@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | find -mindepth 1 -empty | printf '%p\n'
+ls -a | find -mindepth 1 -empty | printf '\n'
